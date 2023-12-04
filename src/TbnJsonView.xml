@@ -23,19 +23,13 @@
                     <attributeType name="String" />
                 </attributeTypes>
             </property>
-            <property key="themeName" type="attribute" required="true">
+            <property key="themeName" type="string" required="true">
                 <caption>Theme Name</caption>
                 <description>monokai, ocean, solarized, rjv-default</description>
-                <attributeTypes>
-                    <attributeType name="String" />
-                </attributeTypes>
             </property>
-            <property key="iconStyle" type="attribute" required="true">
+            <property key="iconStyle" type="string" required="true">
                 <caption>Icon Style</caption>
                 <description>triangle, circle, square</description>
-                <attributeTypes>
-                    <attributeType name="Enum" />
-                </attributeTypes>
             </property>
         </propertyGroup>
     </properties>
